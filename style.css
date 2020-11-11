@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+		body{margin:0px;
+			font-family:arial;}
+			.container-fluid{
+				margin-left:50px;
+				margin-right:50px;
+			}
+		.header{
+			background-color:yellow;
+			color:black;
+			padding:30px;
+			text-align:center;
+		}
+		.container{
+			display:flex;
+			flex-flow: wrap;
+			margin-top:10px;
+		}
+		.navbar{
+			flex:70%;
+			margin-left:30%;
+			height:200px;
+			text-align: center;
+			color:black;
+			background-color: yellow;
+		}
+		.menu{
+			flex:70%;
+			margin-top:10px;
+			margin-left:30%;
+			height:800px;
+			text-align: center;
+			color:black;
+			background-color:yellow;
+		}
+		.footer{
+			padding:30px;
+			background-color:yellow;
+			text-align:center;
+			color:black;
+			margin-top:10px;
+		}
